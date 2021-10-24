@@ -1,0 +1,10 @@
+2021-Oct-19 19:44:01,069 [main] com.testingshastra.uitests.SignUpPage 
+  INFO  Clicked on Register Button
+2021-Oct-19 19:44:02,566 [main] com.testingshastra.uitests.SignUpPage 
+  INFO  Switched to Inside Frame
+2021-Oct-19 19:44:03,040 [main] com.testingshastra.uitests.SignUpPage 
+  INFO  Jumped back from Frame
+2021-Oct-19 19:44:08,843 [main] com.automation.util.TestListener 
+  INFO  TakeScreenShot While Test Case Failed..
+2021-Oct-19 19:44:11,987 [main] com.automation.util.TestListener 
+  INFO  ScreenShot is Save Successfully

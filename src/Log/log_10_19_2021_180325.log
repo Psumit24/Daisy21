@@ -1,0 +1,4 @@
+2021-Oct-19 18:03:22,412 [main] com.automation.util.TestListener 
+  INFO  TakeScreenShot While Test Case Failed..
+2021-Oct-19 18:03:25,574 [main] com.automation.util.TestListener 
+  INFO  ScreenShot is Save Successfully

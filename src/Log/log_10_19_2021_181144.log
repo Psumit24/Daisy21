@@ -1,0 +1,10 @@
+2021-Oct-19 18:11:44,964 [main] com.testingshastra.uitests.SignUpPage 
+  INFO  URL is Launched:https://ijmeet.com
+2021-Oct-19 18:11:51,282 [main] com.testingshastra.uitests.SignUpPage 
+  INFO  Clicked on Register Button
+2021-Oct-19 18:11:52,202 [main] com.testingshastra.uitests.SignUpPage 
+  INFO  Switched to Inside Frame
+2021-Oct-19 18:11:52,659 [main] com.testingshastra.uitests.SignUpPage 
+  INFO  Jumped back from Frame
+2021-Oct-19 18:11:55,900 [main] com.automation.util.TestListener 
+  INFO  TakeScreenShot While Test Case Failed..
