@@ -1,5 +1,6 @@
 package com.testingshastra.uitests;
 
+import org.apache.log4j.Logger;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -9,16 +10,21 @@ import com.automation.pages.HomePage;
 import com.automation.pages.JoinMeetingPage;
 
 public class HomePageTest extends BaseClass {
+	private static final  Logger LOG =Logger.getLogger(HomePageTest.class);
 	UIKeywords keyword = UIKeywords.getInstance();
 
-	@Test
+	@Test(enabled =false)
 	public void verifyTitleOFHomePage() throws InterruptedException {
 		HomePage page = new HomePage();
 		String expectedTitle = "IJmeet";
-		Assert.assertEquals(keyword.driver.getTitle(), expectedTitle);
+		LOG.info("IJmeet");
+		Assert.assertEquals(UIKeywords.getInstance().driver.getTitle(), expectedTitle);
 		page.rightClickOnnavbarContent();
 		Thread.sleep(5000);
 		page.getTextOfInfoLinks();
+		LOG.info("Hello");
+		page.getTextOfSocialLinks();
+		LOG.info("Done");
 	}
 
 	@Test

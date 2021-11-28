@@ -10,6 +10,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.remote.RemoteWebDriver;
 
+
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 /**
@@ -43,12 +44,11 @@ public class UIKeywords {
 	 *                    <li>safari</li>
 	 *                    </ul>
 	 */
-
 	public void OpenBrow(String browserName) {
 		if (browserName.equalsIgnoreCase("chrome")) {
 			WebDriverManager.chromiumdriver().setup();
 			driver = new ChromeDriver();
-		} else if (browserName.equalsIgnoreCase("firefox")) {
+		} else if (browserName.equalsIgnoreCase("Firefox")) {
 			WebDriverManager.firefoxdriver().setup();
 			driver = new FirefoxDriver();
 		} else if (browserName.equalsIgnoreCase("ie")) {
@@ -57,6 +57,7 @@ public class UIKeywords {
 		} else {
 			System.err.println("Invalid Browser Name:" + browserName);
 		}
+		driver.manage().window().maximize();
 	}
 
 	public void launchUrl(String url) {
@@ -159,4 +160,7 @@ public class UIKeywords {
 
 	}
 
+	public String getTextonSubmit(WebElement element) {
+		return ((WebElement) element).getText();
+	}
 }

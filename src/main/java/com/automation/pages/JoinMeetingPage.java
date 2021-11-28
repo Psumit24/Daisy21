@@ -21,15 +21,15 @@ public class JoinMeetingPage {
 	public By enterMeettingId=By.cssSelector("#meetingid");
 	public By joinMeetingClick = By.cssSelector("#before_start");
 public String getQuickJoinMeetingTitle() {
-	return keyword.driver.findElement(quickJoinMeetingTitle).getText();
+	return UIKeywords.getInstance().driver.findElement(quickJoinMeetingTitle).getText();
 }
 public WebElement enterYourNameSend() {
-	return keyword.driver.findElement(enterYourName);
+	return UIKeywords.getInstance().driver.findElement(enterYourName);
 }
 public WebElement getenterMeettingId() {
-return keyword.driver.findElement(enterMeettingId);
+return UIKeywords.getInstance().driver.findElement(enterMeettingId);
 }
 public WebElement getjoinMeetingClick() {
-return keyword.driver.findElement(joinMeetingClick);
+return UIKeywords.getInstance().driver.findElement(joinMeetingClick);
 }
 }

@@ -1,37 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-10-21T01:31:13 IST" name="Default suite" finished-at="2021-10-21T01:32:13 IST" duration-ms="60247">
+  <suite name="Default suite" duration-ms="594" started-at="2021-11-26T12:36:06 IST" finished-at="2021-11-26T12:36:07 IST">
     <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.testrunner.utility.RunnerMavenTest@49e53c76]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
     </groups>
-    <test started-at="2021-10-21T01:31:13 IST" name="Default test" finished-at="2021-10-21T01:32:13 IST" duration-ms="60247">
-      <class name="com.testingshastra.uitests.HomePageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.testingshastra.uitests.HomePageTest@3012646b]" started-at="2021-10-21T01:31:13 IST" name="setup" finished-at="2021-10-21T01:31:36 IST" duration-ms="22989" status="PASS">
+    <test name="Default test" duration-ms="594" started-at="2021-11-26T12:36:06 IST" finished-at="2021-11-26T12:36:07 IST">
+      <class name="cucumber.testrunner.utility.RunnerMavenTest">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:cucumber.testrunner.utility.RunnerMavenTest@49e53c76]" name="setUpClass" is-config="true" duration-ms="277" started-at="2021-11-26T12:36:06 IST" finished-at="2021-11-26T12:36:07 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verifyTitleOFHomePage()[pri:0, instance:com.testingshastra.uitests.HomePageTest@3012646b]" started-at="2021-10-21T01:31:36 IST" name="verifyTitleOFHomePage" finished-at="2021-10-21T01:31:41 IST" duration-ms="5618" status="PASS">
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.testrunner.utility.RunnerMavenTest@49e53c76]" name="runScenario" duration-ms="191" started-at="2021-11-26T12:36:07 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-11-26T12:36:07 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check the HomePage Title"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[This features verify the home page for all negative and positive scripts]"]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyTitleOFHomePage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testingshastra.uitests.HomePageTest@3012646b]" started-at="2021-10-21T01:31:41 IST" name="tearDown" finished-at="2021-10-21T01:31:42 IST" duration-ms="827" status="PASS">
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.testrunner.utility.RunnerMavenTest@49e53c76]" name="runScenario" duration-ms="12" started-at="2021-11-26T12:36:07 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-11-26T12:36:07 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Passing single string to the Gharkin step"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[This features describes the parameterization in Cucumber]"]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.testingshastra.uitests.HomePageTest@3012646b]" started-at="2021-10-21T01:31:42 IST" name="setup" finished-at="2021-10-21T01:32:03 IST" duration-ms="21080" status="PASS">
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:cucumber.testrunner.utility.RunnerMavenTest@49e53c76]" name="tearDownClass" is-config="true" duration-ms="8" started-at="2021-11-26T12:36:07 IST" finished-at="2021-11-26T12:36:07 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verifyToUserRedirectToJoinMeetPage()[pri:0, instance:com.testingshastra.uitests.HomePageTest@3012646b]" started-at="2021-10-21T01:32:03 IST" name="verifyToUserRedirectToJoinMeetPage" finished-at="2021-10-21T01:32:12 IST" duration-ms="8901" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyToUserRedirectToJoinMeetPage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testingshastra.uitests.HomePageTest@3012646b]" started-at="2021-10-21T01:32:12 IST" name="tearDown" finished-at="2021-10-21T01:32:13 IST" duration-ms="785" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.testingshastra.uitests.HomePageTest -->
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- cucumber.testrunner.utility.RunnerMavenTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

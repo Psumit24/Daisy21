@@ -6,10 +6,9 @@ import org.testng.annotations.BeforeMethod;
 
 import com.automation.keywords.UIKeywords;
 
-public class BaseClass {
+public class BaseClass{
 	UIKeywords keyword = UIKeywords.getInstance();
 	public RemoteWebDriver driver = null;
-
 	@BeforeMethod
 	public void setup() {
 		keyword.OpenBrow("chrome");
@@ -18,10 +17,10 @@ public class BaseClass {
 		keyword.maximazeWindow();
 		keyword.implicitWait();
 	}
+
 	@AfterMethod
 	public void tearDown() {
 		keyword.quitBrowse();
-		this.driver = keyword.getDriver();
 	}
-	
+
 }

@@ -1,8 +1,16 @@
-2021-Oct-19 19:51:24,752 [main] com.testingshastra.uitests.SignUpPage 
-  INFO  URL is Launched:https://ijmeet.com
-2021-Oct-19 19:51:32,134 [main] com.testingshastra.uitests.SignUpPage 
-  INFO  Clicked on Register Button
-2021-Oct-19 19:51:32,835 [main] com.testingshastra.uitests.SignUpPage 
+2021-Nov-27 15:13:13,648 [main] com.testingshastra.uitests.HostMeetingTest 
+  INFO  URL Lunched:https://ijmeet.com
+2021-Nov-27 15:13:15,563 [main] com.testingshastra.uitests.HostMeetingTest 
+  INFO  TryFree>>Try it Free for 14 Days
+2021-Nov-27 15:13:19,005 [main] com.testingshastra.uitests.HostMeetingTest 
   INFO  Switched to Inside Frame
-2021-Oct-19 19:51:33,031 [main] com.testingshastra.uitests.SignUpPage 
+2021-Nov-27 15:13:19,392 [main] com.testingshastra.uitests.HostMeetingTest 
+  INFO  Jumped back from Frame
+2021-Nov-27 15:13:41,542 [main] com.testingshastra.uitests.SignUpPageTest 
+  INFO  URL is Launched:https://ijmeet.com
+2021-Nov-27 15:13:45,946 [main] com.testingshastra.uitests.SignUpPageTest 
+  INFO  Clicked on Register Button
+2021-Nov-27 15:13:46,950 [main] com.testingshastra.uitests.SignUpPageTest 
+  INFO  Switched to Inside Frame
+2021-Nov-27 15:13:47,242 [main] com.testingshastra.uitests.SignUpPageTest 
   INFO  Jumped back from Frame
